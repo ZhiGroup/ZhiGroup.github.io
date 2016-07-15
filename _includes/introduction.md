@@ -1,0 +1,1 @@
+Our group is interested in the analysis of complex traits. Our research involves methods, software development, and applications in precision health. Most of us are affiliated with the [School of Biomedical Informatics at Univerisity of Texas Health Science Center at Houston](http://www.uth.edu/).

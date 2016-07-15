@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/vendor/foundation/css/normalize.css">
+        <link rel="stylesheet" href="/vendor/foundation/css/foundation.css">
+        <link rel="stylesheet" href="/styles/main.css">
+        <title>Zhi Group @ UTHealth </title>
+    </head>
+    <body>
+        <header class="row">
+            <div id="title" class="medium-7 columns">
+                <h1>QuantGen Group</h1>
+            </div>
+            <div id="msu-logo" class="medium-5 columns">
+                <img src="/images/uthealthlogo.png" alt="UTHealth">
+            </div>
+        </header>
+        <nav data-magellan-expedition="fixed">
+            <ul class="sub-nav">
+                <li data-magellan-arrival="about"><a href="#about">About</a></li>
+                <li data-magellan-arrival="projects"><a href="#projects">Projects</a></li>
+                <li data-magellan-arrival="software"><a href="#software">Software</a></li>
+                <li data-magellan-arrival="activities"><a href="#activities">Activities</a></li>
+                <li data-magellan-arrival="people"><a href="#people">People</a></li>
+            </ul>
+        </nav>
+        <section class="row">
+            {{ content }}
+        </section>
+        <script src="/vendor/jquery/jquery.js"></script>
+        <script src="/vendor/foundation/js/foundation.js"></script>
+        <script src="/vendor/foundation/js/foundation.magellan.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>
