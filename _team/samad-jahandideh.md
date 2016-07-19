@@ -9,4 +9,4 @@ current_position: Data Scientist at Origent Data Sciences, Inc.
 ---
 
 - Areas of Interest: Structural Bioinformatics, Machine Learning
-- CV [CV]:/images/team/CV-Samad.pdf
+- CV:/images/team/CV-Samad.pdf
