@@ -3,7 +3,7 @@ layout: team-member
 member_type: current
 name: Xin Geng
 job_title: Postdoc
-picture: /images/team/xin-geng.GIF
+picture: /images/team/xin-geng.JPG
 email: Xin.Geng@uth.tmc.edu
 ---
 
