@@ -3,7 +3,7 @@ layout: team-member
 member_type: past
 name: Xueyan (Snow) Zhao
 job_title: Postdoc
-picture: /images/team/guodong.jpeg
+picture: /images/team/xueyan.jpeg
 email: zhaoxy@uab.edu
 ---
 
