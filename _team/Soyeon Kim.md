@@ -8,5 +8,5 @@ email: soyeon.sophia.kim@gmail.com
 ---
 
 - Areas of Interest: Statistics
-- [CV](xxx)
-- Links: [Google Scholar](xxx)		
+- [CV](https://www.dropbox.com/s/67g1nv5lpt9yusp/SKimCV_postdoc3.pdf?dl=0)
+
