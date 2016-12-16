@@ -4,7 +4,7 @@ member_type: current
 name: Soyeon Kim
 job_title: Postdoc
 picture: /images/team/Soyeon_Kim.jpeg
-email: soyeon.sophia.kim@gmail.com
+email: Soyeon.Kim@uth.tmc.edu
 ---
 
 - Areas of Interest: Statistics
