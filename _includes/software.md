@@ -3,7 +3,7 @@
 
 [msBayes](http://wiki.ssg.uab.edu/display/SQML/Home). Statistical Quantification of Methylation Levels by Next-generation Sequencing.
  
-[RaPID](http://genome.ucf.edu/RaPID/). Random Projection-based IBD Detection (RaPID).
+[RaPID](https://github.com/ZhiGroup/RaPID). Random Projection-based IBD Detection (RaPID).
 
 
  
