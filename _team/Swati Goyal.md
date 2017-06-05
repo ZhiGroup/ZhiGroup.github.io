@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Swati Goyal
 job_title: Graduate Research Assistant
 picture: /images/team/SwatiGoyal.jpeg
