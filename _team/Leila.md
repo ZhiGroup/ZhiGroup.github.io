@@ -5,7 +5,7 @@ name: Leila Irasmy Gindy Bekhet
 job_title: Research assistant
 picture: /images/team/leila.JPG
 email: Laila.Rasmy.GindyBekhet@uth.tmc.edu
-Areas of Interest: Deep learning, predictive modeling
+Areas of Interest: Deep learning, Predictive modeling
 ---
 
 
