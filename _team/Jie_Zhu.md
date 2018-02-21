@@ -8,5 +8,5 @@ email: GinnyChu512@gmail.com
 ---
 
 - Areas of Interest: Machine learning, Health data science
-- [CV](https://www.dropbox.com/s/8i4e8nac6vukqia/GinnyZhu_Resume_QR.pdf?dl=0)
+- [CV](https://www.dropbox.com/s/8i4e8nac6vukqia/GinnyZhu_Resume.pdf?dl=0)
 - Links: [Linkedin](https://www.linkedin.com/in/ginnyjzprofessional/)		
