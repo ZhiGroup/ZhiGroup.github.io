@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Soyeon Kim
 job_title: Postdoc
 picture: /images/team/Soyeon_Kim.jpeg
