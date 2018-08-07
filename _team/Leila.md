@@ -1,7 +1,7 @@
 ---
 layout: team-member
 member_type: current
-name: Leila Irasmy Gindy Bekhet
+name: Laila Irasmy Gindy Bekhet
 job_title: Research assistant
 picture: /images/team/leila.JPG
 email: Laila.Rasmy.GindyBekhet@uth.tmc.edu
