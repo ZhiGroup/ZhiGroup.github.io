@@ -1,1 +1,1 @@
-- [Journal Club Meetings](https://github.com/ZhiGroup/LAB-Journal-Club-Meetings)
+- Group Meetings: Mondays 9:45am
