@@ -1,1 +1,1 @@
-- Group Meetings: Mondays 9:45am
+- Group Meetings: Thursdays 9:45am
