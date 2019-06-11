@@ -2,9 +2,9 @@
 layout: team-member
 member_type: current
 name: Ardalan Naseri 
-job_title: Ph.D. Student
+job_title: Research Scientist
 picture: /images/team/ardalan.jpeg
-email: ardalan@knights.ucf.edu
+email: ardalan.naseri@uth.tmc.edu
 ---
 
 - Areas of Interest: Bioinformatics
