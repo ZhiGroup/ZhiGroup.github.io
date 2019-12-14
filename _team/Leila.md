@@ -2,7 +2,7 @@
 layout: team-member
 member_type: current
 name: Laila Irasmy Gindy Bekhet
-job_title: Research assistant
+job_title: PhD student
 picture: /images/team/leila.JPG
 email: Laila.Rasmy.GindyBekhet@uth.tmc.edu
 Areas of Interest: Deep learning, Predictive modeling
