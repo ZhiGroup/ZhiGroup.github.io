@@ -1,1 +1,1 @@
-Our group is interested in using big data to advance precision medicine and health. We develop new algorithms and models for the big data collected from biobanks and eletronic health records, and making new insights that are not possible with smaller scale data.
+Our group is interested in advancing precision medicine and health using big data analytics. We develop new algorithms and models for the big data in biobanks and eletronic health records. In particular, we are making new insights from big data that are often not possible with smaller data.
