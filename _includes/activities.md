@@ -1,1 +1,1 @@
-- Group Meetings: Thursdays 9:45am
+- Group Meetings: Weekly.
