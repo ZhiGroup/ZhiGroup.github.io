@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Ginny (Jie) Zhu
 job_title: Ph.D student
 picture: /images/team/Ginny.jpg
