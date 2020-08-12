@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Jing Zhang
 job_title: Graduate Student Researcher
 picture: /images/uthealthlogo.png
