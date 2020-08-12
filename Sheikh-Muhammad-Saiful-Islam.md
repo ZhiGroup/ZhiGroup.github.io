@@ -1,10 +1,9 @@
 ---
 layout: team-member
-name: Sheikh Muhammad Saiful Islam
-title: PhD Student
 member_type: current
+name: Sheikh Muhammad-Saiful-Islam
+job_title: PhD Student
 picture: /images/team/uthealth.jpg 
 email: EMAIL
 ---
-
 - Areas of Interest:  Deep learning in Bioinformatics
