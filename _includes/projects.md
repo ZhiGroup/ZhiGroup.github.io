@@ -6,7 +6,7 @@ We believe identifying IBD segments in population scale cohorts are the first st
 
 *Representative publications*
 
-*  [RaPID: ultra-fast, powerful, and accurate detection of segments identical by descent (IBD) in biobank-scale cohorts. A Naseri, X Liu, K Tang, S Zhang*, D Zhi*. Genome biology 20 (1), 143]( https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1754-8?optIn=true) [code](https://github.com/ZhiGroup/RaPID)
+*  [RaPID: ultra-fast, powerful, and accurate detection of segments identical by descent (IBD) in biobank-scale cohorts. A Naseri, X Liu, K Tang, S Zhang*, D Zhi*. Genome biology 20 (1), 143]( https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1754-8?optIn=true) Link to [code](https://github.com/ZhiGroup/RaPID)
 
 *  [Efficient haplotype matching between a query and a panel for genealogical search. A Naseri, E Holzhauser, D Zhi*, S Zhang*. Bioinformatics 35 (14), i233-i241](https://academic.oup.com/bioinformatics/article-abstract/35/14/i233/5529240)
 
@@ -28,4 +28,4 @@ Deep learning is a powerful paradigm for modeling complex multi-modality data th
 
 *Representative publications*
 
-*  [Gene2vec: distributed representation of genes based on co-expression. J Du, P Jia, Y Dai, C Tao, Z Zhao, D Zhi*. BMC genomics 20 (1), 82](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5370-x) [code](https://github.com/jingcheng-du/Gene2vec)
+*  [Gene2vec: distributed representation of genes based on co-expression. J Du, P Jia, Y Dai, C Tao, Z Zhao, D Zhi*. BMC genomics 20 (1), 82](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5370-x) Link to [code](https://github.com/jingcheng-du/Gene2vec)
