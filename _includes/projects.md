@@ -18,6 +18,10 @@ Patients' health records and other health information are being collected and be
 
 [Laila Rasmy, Yonghui Wu, Ningtao Wang, Xin Geng, W. Jim Zheng, Fei Wang, Hulin Wu, Hua Xu, and Degui Zhi. 2018. “A Study of Generalizability of Recurrent Neural Network-Based Predictive Models for Heart Failure Onset Risk Using a Large and Heterogeneous EHR Data Set.” Journal of Biomedical Informatics 84 (August): 11–16.](https://doi.org/10.1016/j.jbi.2018.06.011)
 
+[L Rasmy, Y Xiang, Z Xie, C Tao, D Zhi. "Med-BERT: pre-trained contextualized embeddings on large-scale structured electronic health records for disease prediction" arXiv preprint arXiv:2005.12833](https://arxiv.org/abs/2005.12833)
+
+[Laila Rasmy, Firat Tiryaki, Yujia Zhou, Yang Xiang, Cui Tao Hua Xu, Degui Zhi. "Representation of EHR data for predictive modeling: a compari- son between UMLS and other terminologies". Journal of the American Medical Informatics Association, 2020 In print.
+
 **Modern bioinformatics using deep learning**
 
 Deep learning is a powerful paradigm for modeling complex multi-modality data that is faced by modern biomedical research. We explore a variety of bioinformatics problems using deep learning approaches.
