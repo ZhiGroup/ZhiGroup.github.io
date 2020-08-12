@@ -8,3 +8,4 @@ email: gwu@lrri.org
 ---
 
 - Areas of Interest: Statistical Genetics, Penalized Regression
+- Year: 2009-2014
