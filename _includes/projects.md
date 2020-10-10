@@ -20,7 +20,7 @@ Patients' health records and other health information are being collected and be
 
 *  [L Rasmy, Y Xiang, Z Xie, C Tao, D Zhi. "Med-BERT: pre-trained contextualized embeddings on large-scale structured electronic health records for disease prediction" arXiv preprint arXiv:2005.12833](https://arxiv.org/abs/2005.12833)
 
-*  [Laila Rasmy, Firat Tiryaki, Yujia Zhou, Yang Xiang, Cui Tao Hua Xu, Degui Zhi. "Representation of EHR data for predictive modeling: a compari- son between UMLS and other terminologies". Journal of the American Medical Informatics Association, 2020 In print.]
+*  [Laila Rasmy, Firat Tiryaki, Yujia Zhou, Yang Xiang, Cui Tao, Hua Xu, Degui Zhi. "Representation of EHR data for predictive modeling: a compari- son between UMLS and other terminologies". Journal of the American Medical Informatics Association, ocaa180, 2020](https://doi.org/10.1093/jamia/ocaa180)
 
 **Modern bioinformatics using deep learning**
 
