@@ -18,7 +18,7 @@ Patients' health records and other health information are being collected and be
 
 *  [Laila Rasmy, Yonghui Wu, Ningtao Wang, Xin Geng, W. Jim Zheng, Fei Wang, Hulin Wu, Hua Xu, and Degui Zhi. 2018. “A Study of Generalizability of Recurrent Neural Network-Based Predictive Models for Heart Failure Onset Risk Using a Large and Heterogeneous EHR Data Set.” Journal of Biomedical Informatics 84 (August): 11–16.](https://doi.org/10.1016/j.jbi.2018.06.011)
 
-*  [L Rasmy, Y Xiang, Z Xie, C Tao, D Zhi. "Med-BERT: pre-trained contextualized embeddings on large-scale structured electronic health records for disease prediction" arXiv preprint arXiv:2005.12833](https://arxiv.org/abs/2005.12833)
+*  [L Rasmy, Y Xiang, Z Xie, C Tao, D Zhi. "Med-BERT: pre-trained contextualized embeddings on large-scale structured electronic health records for disease prediction" npj Digital Medicine 2021](https://www.nature.com/articles/s41746-021-00455-y) [arXiv](https://arxiv.org/abs/2005.12833)
 
 *  [Laila Rasmy, Firat Tiryaki, Yujia Zhou, Yang Xiang, Cui Tao, Hua Xu, Degui Zhi. "Representation of EHR data for predictive modeling: a compari- son between UMLS and other terminologies". Journal of the American Medical Informatics Association, ocaa180, 2020](https://doi.org/10.1093/jamia/ocaa180)
 
@@ -29,3 +29,7 @@ Deep learning is a powerful paradigm for modeling complex multi-modality data th
 *Representative publications*
 
 *  [Gene2vec: distributed representation of genes based on co-expression. J Du, P Jia, Y Dai, C Tao, Z Zhao, D Zhi*. BMC genomics 20 (1), 82](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5370-x) Link to [code](https://github.com/jingcheng-du/Gene2vec)
+
+**Imaging genetics using deep learning**
+
+
