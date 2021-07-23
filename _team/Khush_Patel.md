@@ -9,4 +9,4 @@ Areas of Interest: Deep learning, Medical Imaging, Predictive modeling
 ---
 
 
-- [CV]
+- [CV](https://drive.google.com/file/d/1nJiR6J6cbxswD_EgbaQeAxOqmCV4MdZw/view?usp=sharing)
