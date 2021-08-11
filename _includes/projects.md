@@ -22,6 +22,15 @@ Patients' health records and other health information are being collected and be
 
 *  [Laila Rasmy, Firat Tiryaki, Yujia Zhou, Yang Xiang, Cui Tao, Hua Xu, Degui Zhi. "Representation of EHR data for predictive modeling: a compari- son between UMLS and other terminologies". Journal of the American Medical Informatics Association, ocaa180, 2020](https://doi.org/10.1093/jamia/ocaa180)
 
+
+**Imaging genetics using deep learning**
+
+We develop new deep learning (DL) based approaches for deriving new endophenotypes from imaging data, and associating these endophenotypes to genetic data. Marrying deep learning and GWAS, we can reveal new genes for Alzheimer's diseases and retina developments. 
+
+*Representative publications*
+
+* Z Xie, T Zhang, S Kim, J Lu, W Zhang, C Lin, M Wu, A Davis, L Giancardo, H Chen, S Wang, R Chen*, D Zhi*. “iGWAS: image based genome wide association of self-supervised deep phenotyping of the human medical images”, in preparation, 2021 
+
 **Modern bioinformatics using deep learning**
 
 Deep learning is a powerful paradigm for modeling complex multi-modality data that is faced by modern biomedical research. We explore a variety of bioinformatics problems using deep learning approaches.
@@ -29,7 +38,4 @@ Deep learning is a powerful paradigm for modeling complex multi-modality data th
 *Representative publications*
 
 *  [Gene2vec: distributed representation of genes based on co-expression. J Du, P Jia, Y Dai, C Tao, Z Zhao, D Zhi*. BMC genomics 20 (1), 82](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5370-x) Link to [code](https://github.com/jingcheng-du/Gene2vec)
-
-**Imaging genetics using deep learning**
-
 
