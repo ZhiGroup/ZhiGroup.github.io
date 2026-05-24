@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/vendor/foundation/css/normalize.css">
-        <link rel="stylesheet" href="/vendor/foundation/css/foundation.css">
+        <meta name="description" content="Zhi Lab develops computational genomics, pangenomics, clinical EHR foundation models, and AI-powered imaging genetics methods.">
         <link rel="stylesheet" href="/styles/main.css">
-        <title>Zhi Group @ UTHealth </title>
+        <title>{% if page.title %}{{ page.title }} | {% endif %}Zhi Lab</title>
     </head>
     <body>
-        <header class="row">
-            <div id="title" class="medium-7 columns">
-                <h1>ZhiGroup</h1>
-            </div>
+        <header class="site-header">
+            <a class="brand" href="/">
+                <span class="brand-mark">Z</span>
+                <span>
+                    <strong>Zhi Lab</strong>
+                    <em>Computational Genomics and Biomedical AI</em>
+                </span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
+                <a href="/research.html" {% if page.url == "/research.html" %}class="active"{% endif %}>Research</a>
+                <a href="/people.html" {% if page.url == "/people.html" %}class="active"{% endif %}>People</a>
+                <a href="/software.html" {% if page.url == "/software.html" %}class="active"{% endif %}>Software</a>
+                <a href="/funding.html" {% if page.url == "/funding.html" %}class="active"{% endif %}>Funding</a>
+                <a href="/activity.html" {% if page.url == "/activity.html" %}class="active"{% endif %}>Activity</a>
+                <a href="/career.html" {% if page.url == "/career.html" %}class="active"{% endif %}>Career</a>
+            </nav>
         </header>
-        <nav data-magellan-expedition="fixed">
-            <ul class="sub-nav">
-                <li data-magellan-arrival="about"><a href="#about">About</a></li>
-                <li data-magellan-arrival="projects"><a href="#projects">Projects</a></li>
-                <li data-magellan-arrival="software"><a href="#software">Software</a></li>
-                <li data-magellan-arrival="activities"><a href="#activities">Activities</a></li>
-                <li data-magellan-arrival="people"><a href="#people">People</a></li>
-            </ul>
-        </nav>
-        <section class="row">
+
+        <main>
             {{ content }}
-        </section>
-        <script src="/vendor/jquery/jquery.js"></script>
-        <script src="/vendor/foundation/js/foundation.js"></script>
-        <script src="/vendor/foundation/js/foundation.magellan.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
+        </main>
+
+        <footer class="site-footer">
+            <div>
+                <strong>Zhi Lab</strong>
+                <p>Computational genomics, pangenomics, clinical foundation models, and AI-powered imaging genetics.</p>
+            </div>
+            <div>
+                <span>Yale BIDS · New Haven, Connecticut</span>
+                <span>GitHub: <a href="https://github.com/ZhiGroup">ZhiGroup</a></span>
+            </div>
+        </footer>
     </body>
 </html>

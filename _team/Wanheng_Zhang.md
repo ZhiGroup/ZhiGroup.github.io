@@ -1,9 +1,9 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Wanheng Zhang
 job_title: PhD student
-picture: /images/team/WanhengZhang.JPG
+picture: /images/uthealthlogo.png
 email: Wanheng.Zhang@uth.tmc.edu
 Areas of Interest: CCA, Deep learning
 ---

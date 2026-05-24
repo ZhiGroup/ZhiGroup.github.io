@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Khush Patel
 job_title: MS student
 picture: /images/team/khush_patel.jpg

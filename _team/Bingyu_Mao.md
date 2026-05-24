@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 name: Bingyu Mao
 job_title: PhD student
 picture: /images/team/BingyuMao.jpg

@@ -1,36 +1,94 @@
 ---
 layout: default
+title: Home
 ---
 
-<img src="images/Group_201911.jpg">
+<section class="institute-hero">
+    <div class="institute-hero-text">
+        <p class="eyebrow">Zhi Lab · Yale Biomedical Informatics and Data Science</p>
+        <h1>Computational Genomics and Biomedical AI</h1>
+        <p class="lead">
+            We build scalable algorithms and foundation models for population-scale genomics, electronic health records, and biomedical imaging.
+        </p>
+        <div class="hero-actions">
+            <a class="button primary" href="/research.html">Research Areas</a>
+            <a class="button secondary" href="/career.html">Postdoctoral Openings</a>
+        </div>
+    </div>
+    <figure class="institute-hero-image">
+        <img class="hero-science-image" src="/images/zhi-lab-hero.png" alt="Abstract scientific illustration for computational genomics and biomedical AI">
+        <img class="hero-lab-image" src="/images/group-meeting-2026.jpg" alt="Zhi Lab group meeting and team members">
+    </figure>
+</section>
 
-<a name="about"></a>
-<h2 data-magellan-destination="about">About</h2>
-{% capture introduction %}{% include introduction.md %}{% endcapture %}
-{{ introduction | markdownify }}
+<section class="mission-band">
+    <div>
+        <p class="eyebrow">Research Objective</p>
+        <h2>Transform high-dimensional biomedical data into reusable infrastructure for precision medicine.</h2>
+    </div>
+    <p>
+        The lab develops statistical, algorithmic, and deep learning methods to connect genetic variation, clinical trajectories, and image-derived phenotypes with disease mechanisms and patient outcomes.
+    </p>
+</section>
 
-<a name="projects"></a>
-<h2 data-magellan-destination="projects">Projects</h2>
-{% capture projects %}{% include projects.md %}{% endcapture %}
-{{ projects | markdownify }}
+<section class="home-section program-section">
+    <div class="section-title-line">
+        <p class="eyebrow">Research Programs</p>
+        <h2>Three integrated directions</h2>
+    </div>
+    <div class="program-grid">
+        <article class="program-card blue-card">
+            <span>01</span>
+            <h3>Computational Genomics and Pangenomics</h3>
+            <p>IBD detection, PBWT/GBWT/RLBWT indexing, pangenome graph analysis, local ancestry, and million-sample haplotype methods.</p>
+        </article>
+        <article class="program-card teal-card program-card-wide">
+            <span>02</span>
+            <h3>Clinical EHR Foundation Models</h3>
+            <p>Med-BERT, CovRNN, multi-task fine-tuning, clinical trajectory modeling, benchmarking, and deployment-oriented validation across large-scale health systems.</p>
+        </article>
+        <article class="program-card gold-card">
+            <span>03</span>
+            <h3>AI-Powered Imaging Genetics</h3>
+            <p>UDIP, image-derived phenotype GWAS, neuroimaging biomarkers, retinal imaging genetics, and multi-omics integration.</p>
+        </article>
+    </div>
+</section>
 
-<a name="software"></a>
-<h2 data-magellan-destination="software">Software</h2>
-{% capture software %}{% include software.md %}{% endcapture %}
-{{ software | markdownify }}
-
-<a name="activities"></a>
-<h2 data-magellan-destination="activities">Activities</h2>
-{% capture activities %}{% include activities.md %}{% endcapture %}
-{{ activities | markdownify }}
-
-<a name="people"></a>
-<h2 data-magellan-destination="people">People</h2>
-{% assign by_member_type = site.team | group_by: "member_type" | sort: "name" %}
-{% for member in by_member_type[0].items %}
-  {{ member.output }}
-{% endfor %}
-<h3>Past Members</h3>
-{% for member in by_member_type[1].items %}
-  {{ member.output }}
-{% endfor %}
+<section class="home-section home-news-layout">
+    <div class="news-panel">
+        <div class="section-title-line">
+            <p class="eyebrow">News</p>
+            <h2>Latest updates</h2>
+        </div>
+        <article class="news-row">
+            <time>2026</time>
+            <div>
+                <h3>UDIP-FA accepted at Nature Communications</h3>
+                <p>UDIP-FA extends unsupervised deep imaging phenotypes to diffusion MRI white matter FA maps, identifying 586 loci and 939 lead SNPs.</p>
+            </div>
+        </article>
+        <article class="news-row">
+            <time>July 2026</time>
+            <div>
+                <h3>Dr. Degui Zhi to join Yale BIDS</h3>
+                <p>Dr. Zhi will join Yale University as Professor and Director of Bioinformatics.</p>
+            </div>
+        </article>
+        <article class="news-row">
+            <time>Fall 2026</time>
+            <div>
+                <h3>Postdoctoral researcher positions open</h3>
+                <p>We are recruiting postdoctoral researchers in computational genomics, clinical AI, and imaging genetics.</p>
+            </div>
+        </article>
+    </div>
+    <aside class="quick-links-panel">
+        <p class="eyebrow">Academic Resources</p>
+        <h2>Explore the lab</h2>
+        <a href="/people.html">People</a>
+        <a href="/software.html">Software</a>
+        <a href="/funding.html">Funding</a>
+        <a href="/career.html">Career</a>
+    </aside>
+</section>

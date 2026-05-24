@@ -1,0 +1,92 @@
+---
+layout: default
+title: People
+---
+
+<section class="page people-page">
+    <header class="page-header">
+        <p class="eyebrow">People</p>
+        <h1>Researchers in computational genomics, clinical AI, and imaging genetics.</h1>
+        <p class="lead">
+            The lab includes faculty, postdoctoral researchers, PhD students, and master's students working across genome informatics and biomedical AI.
+        </p>
+    </header>
+
+    <section class="people-role-section people-pi-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Principal Investigator</p>
+            <h2>PI</h2>
+        </div>
+        <div class="people-grid pi-grid">
+            {% assign pi_members = site.team | where: "member_type", "current" | where: "role_group", "pi" | sort: "name" %}
+            {% for member in pi_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="people-role-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Faculty</p>
+            <h2>Assistant Professors</h2>
+        </div>
+        <div class="people-grid">
+            {% assign ap_members = site.team | where: "member_type", "current" | where: "role_group", "assistant_professor" | sort: "name" %}
+            {% for member in ap_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="people-role-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Researchers</p>
+            <h2>Postdoctoral Researchers</h2>
+        </div>
+        <div class="people-grid">
+            {% assign postdoc_members = site.team | where: "member_type", "current" | where: "role_group", "postdoc" | sort: "name" %}
+            {% for member in postdoc_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="people-role-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Students</p>
+            <h2>PhD Students</h2>
+        </div>
+        <div class="people-grid">
+            {% assign phd_members = site.team | where: "member_type", "current" | where: "role_group", "phd" | sort: "name" %}
+            {% for member in phd_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="people-role-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Students</p>
+            <h2>Master's Students</h2>
+        </div>
+        <div class="people-grid">
+            {% assign master_members = site.team | where: "member_type", "current" | where: "role_group", "master" | sort: "name" %}
+            {% for member in master_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="people-role-section">
+        <div class="people-role-heading">
+            <p class="eyebrow">Alumni</p>
+            <h2>Past Members</h2>
+        </div>
+        <div class="people-grid alumni-grid">
+            {% assign past_members = site.team | where: "member_type", "past" | sort: "name" %}
+            {% for member in past_members %}
+                {{ member.output }}
+            {% endfor %}
+        </div>
+    </section>
+</section>

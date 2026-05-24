@@ -1,11 +1,14 @@
 
 [RaPID](https://github.com/ZhiGroup/RaPID). Random Projection-based IBD Detection (RaPID).
 
+[Med-BERT](https://github.com/ZhiGroup/Med-BERT). Contextualized embedding model for structured electronic health records.
+
 [pytorch_ehr](https://github.com/ZhiGroup/pytorch_ehr). Open source codes for modeling EHR based on PyTorch
+
+CovRNN. Deep learning framework for clinical trajectory and COVID-19 outcome modeling from electronic health records.
  
 [gene2vec](https://github.com/jingcheng-du/Gene2vec). Open source codes for gene embedding based on co-expression.
  
 [HapSeq2](https://github.com/ZhiGroup/HapSeq2). Our method for genotype calling and phasing for WGS data. 
 
 [msBayes](https://github.com/ZhiGroup/msBayes). Statistical Quantification of Methylation Levels by Next-generation Sequencing.
-

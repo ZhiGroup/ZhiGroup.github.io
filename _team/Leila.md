@@ -1,11 +1,12 @@
 ---
 layout: team-member
 member_type: current
+role_group: assistant_professor
 name: Laila Rasmy Gindy Bekhet
 job_title: Assistant Professor
 picture: /images/team/leila.JPG
 email: Laila.Rasmy.GindyBekhet@uth.tmc.edu
-Areas of Interest: Deep learning, Predictive modeling, EHR
+Areas of Interest: Deep learning, predictive modeling, EHR
 ---
 
 
