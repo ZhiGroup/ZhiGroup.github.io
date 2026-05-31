@@ -1,7 +1,7 @@
 ---
 layout: team-member
 member_type: current
-role_group: assistant_professor
+role_group: research_scientist
 name: Ardalan Naseri 
 job_title: Assistant Professor
 picture: /images/team/ardalan.jpeg

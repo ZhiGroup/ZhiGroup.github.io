@@ -1,9 +1,9 @@
 ---
 layout: team-member
 member_type: current
-role_group: postdoc
+role_group: research_scientist
 name: Xingzhong Zhao
-job_title: Postdoctoral Research Fellow
+job_title: Associate Research Scientist
 picture: /images/uthealthlogo.png
 email: EMAIL
 ---

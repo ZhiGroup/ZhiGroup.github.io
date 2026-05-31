@@ -27,12 +27,12 @@ title: People
 
     <section class="people-role-section">
         <div class="people-role-heading">
-            <p class="eyebrow">Faculty</p>
-            <h2>Assistant Professors</h2>
+            <p class="eyebrow">Research Staff</p>
+            <h2>Research Scientists</h2>
         </div>
         <div class="people-grid">
-            {% assign ap_members = site.team | where: "member_type", "current" | where: "role_group", "assistant_professor" | sort: "name" %}
-            {% for member in ap_members %}
+            {% assign research_scientist_members = site.team | where: "member_type", "current" | where: "role_group", "research_scientist" | sort: "name" %}
+            {% for member in research_scientist_members %}
                 {{ member.output }}
             {% endfor %}
         </div>
