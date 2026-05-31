@@ -10,6 +10,7 @@ The site is built with GitHub Pages/Jekyll. Each major section now has its own p
 
 - [Home](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/index.html)
 - [Research](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/research.html)
+- [Publications](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/publications.html)
 - [People](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/people.html)
 - [Software](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/software.html)
 - [Funding](https://github.com/ZhiGroup/zhigroup.github.io/edit/master/funding.html)
