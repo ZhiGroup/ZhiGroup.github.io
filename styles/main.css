@@ -66,16 +66,12 @@ img {
     text-decoration: none;
 }
 
-.brand-mark {
-    display: grid;
-    width: 2.8rem;
-    height: 2.8rem;
-    place-items: center;
-    color: #fff;
-    background: var(--blue-deep);
+.brand-logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
     border-radius: 12px;
-    font-size: 1.5rem;
-    font-weight: 700;
+    box-shadow: 0 8px 18px rgba(9, 42, 69, 0.16);
 }
 
 .brand strong,
