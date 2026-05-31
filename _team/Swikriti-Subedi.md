@@ -4,7 +4,7 @@ member_type: current
 role_group: master
 name: Swikriti Subedi
 job_title: MS Student
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 

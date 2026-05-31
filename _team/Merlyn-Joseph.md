@@ -4,7 +4,7 @@ member_type: current
 role_group: phd
 name: Merlyn Joseph
 job_title: PhD Student / CPRIT Postdoctoral Fellow
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 role_group: phd
 name: Evan M Yu
 job_title: PhD Student
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 

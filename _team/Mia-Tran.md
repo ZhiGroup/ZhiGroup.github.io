@@ -3,7 +3,7 @@ layout: team-member
 member_type: past
 name: Mia Tran 
 job_title: Masters' student
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 

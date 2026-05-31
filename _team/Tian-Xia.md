@@ -4,7 +4,7 @@ member_type: current
 role_group: postdoc
 name: Tian Xia
 job_title: Postdoctoral Research Fellow
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 

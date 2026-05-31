@@ -4,7 +4,7 @@ member_type: current
 role_group: phd
 name: Keith L Sanders
 job_title: PhD Student
-picture: /images/uthealthlogo.png
+picture: /images/profile-placeholder.png
 email: EMAIL
 ---
 
