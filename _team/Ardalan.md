@@ -8,4 +8,4 @@ picture: /images/team/ardalan.jpeg
 email: ardalan.naseri@uth.tmc.edu
 ---
 
-- Areas of Interest: Bioinformatics
+- Areas of Interest: Computational Biology, Bioinformatics, Identity by Descent
