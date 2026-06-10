@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 role_group: phd
 name: Yida Wang
 job_title: PhD Student

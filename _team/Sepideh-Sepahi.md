@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 role_group: master
 name: Sepideh Sepahi
 job_title: MS Student

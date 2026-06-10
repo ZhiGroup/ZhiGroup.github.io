@@ -8,7 +8,7 @@ title: People
         <p class="eyebrow">People</p>
         <h1>Researchers in computational genomics, clinical AI, and imaging genetics.</h1>
         <p class="lead">
-            The lab includes faculty, postdoctoral researchers, PhD students, and master's students working across genome informatics and biomedical AI.
+            The lab includes faculty, research scientists, postdoctoral researchers, and PhD students working across genome informatics and biomedical AI.
         </p>
     </header>
 
@@ -59,19 +59,6 @@ title: People
         <div class="people-grid">
             {% assign phd_members = site.team | where: "member_type", "current" | where: "role_group", "phd" | sort: "name" %}
             {% for member in phd_members %}
-                {{ member.output }}
-            {% endfor %}
-        </div>
-    </section>
-
-    <section class="people-role-section">
-        <div class="people-role-heading">
-            <p class="eyebrow">Students</p>
-            <h2>Master's Students</h2>
-        </div>
-        <div class="people-grid">
-            {% assign master_members = site.team | where: "member_type", "current" | where: "role_group", "master" | sort: "name" %}
-            {% for member in master_members %}
                 {{ member.output }}
             {% endfor %}
         </div>

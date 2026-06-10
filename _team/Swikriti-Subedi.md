@@ -1,6 +1,6 @@
 ---
 layout: team-member
-member_type: current
+member_type: past
 role_group: master
 name: Swikriti Subedi
 job_title: MS Student

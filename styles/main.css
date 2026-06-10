@@ -733,6 +733,87 @@ h3 {
     font-weight: 700;
 }
 
+.project-family {
+    margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+.project-family-intro {
+    max-width: 860px;
+    color: var(--muted);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.project-card {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid var(--line);
+}
+
+.project-card-featured {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project-card:not(.project-card-featured) img {
+    height: 250px;
+}
+
+.project-card-body {
+    padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.project-card h3 {
+    color: var(--blue-deep);
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
+}
+
+.project-links,
+.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1rem;
+}
+
+.project-links a,
+.resource-list a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.2rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 999px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.project-links a {
+    color: #fff;
+    background: var(--blue-deep);
+}
+
+.resource-list a {
+    color: var(--blue-deep);
+    background: rgba(31, 122, 122, 0.1);
+    border: 1px solid rgba(31, 122, 122, 0.22);
+}
+
 .software-card h3,
 .grant-card h3 {
     color: var(--blue-deep);
@@ -992,6 +1073,7 @@ h3 {
     .grant-grid,
     .activity-grid,
     .publication-grid,
+    .project-grid,
     .stat-strip,
     .news-grid,
     .home-news-layout,
@@ -1057,6 +1139,11 @@ h3 {
 
     .featured-publication {
         grid-column: span 1;
+    }
+
+    .project-card-featured {
+        grid-column: span 1;
+        grid-template-columns: 1fr;
     }
 
     .person-photo,
