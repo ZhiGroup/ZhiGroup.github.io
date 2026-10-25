@@ -1113,6 +1113,15 @@ h3 {
     color: rgba(255, 255, 255, 0.85);
 }
 
+.career-callout a {
+    color: #fff;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.career-callout h2 {
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
 .application-box {
     display: block;
     margin-top: 2rem;
