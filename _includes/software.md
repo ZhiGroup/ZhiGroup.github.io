@@ -1,3 +1,5 @@
+[TorchGWAS](https://github.com/ZhiGroup/TorchGWAS). GPU-accelerated GWAS for ultra-high dimensional phenotypes.
+
 
 [RaPID](https://github.com/ZhiGroup/RaPID). Random Projection-based IBD Detection (RaPID).
 
