@@ -5,8 +5,6 @@ name: Wanheng Zhang
 job_title: PhD student
 picture: /images/profile-placeholder.png
 email: Wanheng.Zhang@uth.tmc.edu
-Areas of Interest: CCA, Deep learning
 ---
 
-
-- [CV]
+- Areas of Interest: CCA, Deep learning

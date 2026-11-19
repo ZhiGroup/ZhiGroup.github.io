@@ -413,7 +413,7 @@ h3 {
 
 .program-grid {
     display: grid;
-    grid-template-columns: 0.9fr 1.2fr 0.9fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
 }
 
@@ -423,7 +423,8 @@ h3 {
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.24);
     background: rgba(4, 27, 48, 0.56);
     backdrop-filter: blur(10px);
@@ -445,6 +446,7 @@ h3 {
 }
 
 .program-card p {
+    margin-top: auto;
     color: rgba(255, 255, 255, 0.84);
 }
 
@@ -461,8 +463,6 @@ h3 {
 }
 
 .program-card-wide {
-    min-height: 390px;
-    transform: translateY(-1.1rem);
     box-shadow: 0 30px 70px rgba(9, 42, 69, 0.18);
 }
 
@@ -559,6 +559,10 @@ h3 {
     gap: 1.25rem;
     padding: 1.5rem 0;
     border-top: 1px solid var(--line);
+}
+
+.research-item h2 {
+    font-size: clamp(1.6rem, 2.6vw, 2.25rem);
 }
 
 .research-index {
@@ -838,6 +842,12 @@ h3 {
     object-position: center;
 }
 
+.project-card img.project-img-contain {
+    object-fit: contain;
+    padding: 1rem;
+    background: #fff;
+}
+
 .project-card:not(.project-card-featured) img {
     height: 250px;
 }
@@ -969,7 +979,7 @@ h3 {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 320px;
     gap: 1rem;
-    align-items: stretch;
+    align-items: start;
 }
 
 .news-panel,
@@ -1031,6 +1041,8 @@ h3 {
 }
 
 .quick-links-panel {
+    position: sticky;
+    top: 1.5rem;
     background: var(--blue-deep);
     color: #fff;
 }
@@ -1205,6 +1217,19 @@ h3 {
 
     .site-nav {
         justify-content: flex-start;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 0.25rem;
+        scrollbar-width: none;
+    }
+
+    .site-nav a {
+        flex: 0 0 auto;
+    }
+
+    .quick-links-panel {
+        position: static;
     }
 
     .hero,

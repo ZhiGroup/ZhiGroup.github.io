@@ -8,4 +8,3 @@ email: EMAIL
 ---
 
 - Areas of Interest: Population Genetics Informatics
-- Current position:
